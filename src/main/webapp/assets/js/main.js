@@ -15,7 +15,6 @@ const createSlide = () => {
   let content = document.createElement("div");
   let h1 = document.createElement("h1");
   let p = document.createElement("p");
-
   // Attaching all elements
   imgElement.appendChild(document.createTextNode(""));
   h1.appendChild(document.createTextNode(movies[slideIndex].name));
